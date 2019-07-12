@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_play"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="zxc.laitooo.chess.PlayActivity">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/chess_board"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:paddingBottom="1dp"
+                android:id="@+id/a1"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:paddingBottom="1dp"
+                android:id="@+id/a2"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:paddingBottom="1dp"
+                android:id="@+id/a3"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:paddingBottom="1dp"
+                android:id="@+id/a4"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:paddingBottom="1dp"
+                android:id="@+id/a5"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:paddingBottom="1dp"
+                android:id="@+id/a6"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:paddingBottom="1dp"
+                android:id="@+id/a7"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:paddingBottom="1dp"
+                android:id="@+id/a8"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:paddingBottom="1dp"
+                android:id="@+id/b1"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:paddingBottom="1dp"
+                android:id="@+id/b2"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:paddingBottom="1dp"
+                android:id="@+id/b3"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:paddingBottom="1dp"
+                android:id="@+id/b4"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:paddingBottom="1dp"
+                android:id="@+id/b5"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:paddingBottom="1dp"
+                android:id="@+id/b6"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:paddingBottom="1dp"
+                android:id="@+id/b7"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:paddingBottom="1dp"
+                android:id="@+id/b8"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:paddingBottom="1dp"
+                android:id="@+id/c1"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:paddingBottom="1dp"
+                android:id="@+id/c2"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:paddingBottom="1dp"
+                android:id="@+id/c3"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:paddingBottom="1dp"
+                android:id="@+id/c4"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:paddingBottom="1dp"
+                android:id="@+id/c5"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:paddingBottom="1dp"
+                android:id="@+id/c6"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:paddingBottom="1dp"
+                android:id="@+id/c7"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:paddingBottom="1dp"
+                android:id="@+id/c8" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"                 android:paddingBottom="1dp"
+                android:id="@+id/d1"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"                 android:paddingBottom="1dp"
+                android:id="@+id/d2"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"                 android:paddingBottom="1dp"
+                android:id="@+id/d3"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"                 android:paddingBottom="1dp"
+                android:id="@+id/d4"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"                 android:paddingBottom="1dp"
+                android:id="@+id/d5"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"                 android:paddingBottom="1dp"
+                android:id="@+id/d6"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"                 android:paddingBottom="1dp"
+                android:id="@+id/d7"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"                 android:paddingBottom="1dp"
+                android:id="@+id/d8"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"                 android:paddingBottom="1dp"
+                android:id="@+id/e1"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"                 android:paddingBottom="1dp"
+                android:id="@+id/e2"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"                 android:paddingBottom="1dp"
+                android:id="@+id/e3"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"                 android:paddingBottom="1dp"
+                android:id="@+id/e4"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"                 android:paddingBottom="1dp"
+                android:id="@+id/e5"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"                 android:paddingBottom="1dp"
+                android:id="@+id/e6"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"                 android:paddingBottom="1dp"
+                android:id="@+id/e7"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"                 android:paddingBottom="1dp"
+                android:id="@+id/e8"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"                 android:paddingBottom="1dp"
+                android:id="@+id/f1"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"                 android:paddingBottom="1dp"
+                android:id="@+id/f2"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:paddingBottom="1dp"
+                android:id="@+id/f3"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:paddingBottom="1dp"
+                android:id="@+id/f4"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:paddingBottom="1dp"
+                android:id="@+id/f5"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:paddingBottom="1dp"
+                android:id="@+id/f6"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:paddingBottom="1dp"
+                android:id="@+id/f7"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:paddingBottom="1dp"
+                android:id="@+id/f8"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:paddingBottom="1dp"
+                android:id="@+id/g1"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:paddingBottom="1dp"
+                android:id="@+id/g2"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:paddingBottom="1dp"
+                android:id="@+id/g3"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:paddingBottom="1dp"
+                android:id="@+id/g4"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:paddingBottom="1dp"
+                android:id="@+id/g5"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:paddingBottom="1dp"
+                android:id="@+id/g6"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:paddingBottom="1dp"
+                android:id="@+id/g7"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:paddingBottom="1dp"
+                android:id="@+id/g8"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:paddingBottom="1dp"
+                android:id="@+id/h1"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:paddingBottom="1dp"
+                android:id="@+id/h2"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:paddingBottom="1dp"
+                android:id="@+id/h3"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:paddingBottom="1dp"
+                android:id="@+id/h4"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:paddingBottom="1dp"
+                android:id="@+id/h5"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:paddingBottom="1dp"
+                android:id="@+id/h6"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:paddingBottom="1dp"
+                android:id="@+id/h7"/>
+
+            <zxc.laitooo.chess.ChessPeace
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:paddingBottom="1dp"
+                android:id="@+id/h8"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/chess_board"
+        android:layout_marginTop="30dp"
+        android:id="@+id/check_mate"
+        android:textColor="#ff0000"
+        android:textSize="25dp"
+        android:gravity="center"/>
+</RelativeLayout>

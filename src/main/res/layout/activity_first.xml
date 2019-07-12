@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_first"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="zxc.laitooo.chess.FirstActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/soldier"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:layout_marginTop="50dp"
+        android:text="Chess"
+        />
+
+    <Button
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/_2players"
+        android:text="Two Players"
+        android:textColor="@color/minister"
+        android:background="@color/soldier"
+        android:textSize="25dp"
+        android:padding="14dp"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>
